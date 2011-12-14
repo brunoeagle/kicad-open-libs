@@ -1,0 +1,101 @@
+EESchema-DOCLIB  Version 2.0  Date: 14-06-2011 10:31:37
+#
+$CMP 4052_BR
+D Dual Analog Multiplexer 4 to 1 line
+K CMOS MUX MUX4
+$ENDCMP
+#
+$CMP 74LS04
+D Hex Inverseur
+K TTL not inv
+$ENDCMP
+#
+$CMP 74LS04_BR
+D Hex Inverseur
+K TTL not inv
+$ENDCMP
+#
+$CMP 74LS125_BR
+D Quad buffer 3 State out
+K TTL buffer 3State
+$ENDCMP
+#
+$CMP 74LS126_BR
+D Quad buffer 3 State out
+K TTL Buffer 3State
+$ENDCMP
+#
+$CMP 74LS32_BR
+D Quad Or 2 inputs
+K TTL Or2
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP DISPLAY_BL
+D Afficheur LCD nLignes
+K DEV
+$ENDCMP
+#
+$CMP LM324
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324AN
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM8117A
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MC34063_BR
+D 1.5A step up/down/inverting switching regulator
+F regulator/mc34063.pdf
+$ENDCMP
+#
+$CMP TL074
+D Quad Op amp. Mos
+K AmpliOp Mos
+$ENDCMP
+#
+$CMP TL074_BR
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP TLC274
+D Quad Op amp. Mos
+K AmpliOp Mos
+$ENDCMP
+#
+#End Doc Library
