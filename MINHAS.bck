@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 13/01/2012 10:23:05
+EESchema-DOCLIB  Version 2.0  Date: 13/01/2012 18:06:50
 #
 $CMP 4052_BR
 D Dual Analog Multiplexer 4 to 1 line
@@ -34,6 +34,11 @@ $CMP 78L05
 D Linear Regulator +5V
 K POWER REGUL
 F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP ADR5041
+D Voltage Ref
+K VOLTAGE REFERENCE
 $ENDCMP
 #
 $CMP DISPLAY_BL
