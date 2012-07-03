@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 21/06/2012 15:37:36
+EESchema-DOCLIB  Version 2.0  Date: 03/07/2012 11:51:30
 #
 $CMP 4052_BR
 D Dual Analog Multiplexer 4 to 1 line
@@ -85,6 +85,11 @@ $ENDCMP
 $CMP MC34063_BR
 D 1.5A step up/down/inverting switching regulator
 F regulator/mc34063.pdf
+$ENDCMP
+#
+$CMP PIC18F4520-/PT
+D FLASH-Based 8-Bit CMOS Microcontroller (TQFP package)
+K PIC
 $ENDCMP
 #
 $CMP TL074
