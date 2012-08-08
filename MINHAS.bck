@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 31/07/2012 11:55:50
+EESchema-DOCLIB  Version 2.0  Date: 31/07/2012 12:05:06
 #
 $CMP 4052_BR
 D Dual Analog Multiplexer 4 to 1 line
@@ -47,6 +47,10 @@ K DEV
 $ENDCMP
 #
 $CMP DMP2240UDM
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP IRFML8244
 F transistors/mos/*.*
 $ENDCMP
 #
