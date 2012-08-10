@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 09/08/2012 18:15:34
+EESchema-DOCLIB  Version 2.0  Date: 10/08/2012 01:05:54
 #
 $CMP 4052_BR
 D Dual Analog Multiplexer 4 to 1 line
@@ -44,6 +44,10 @@ $ENDCMP
 $CMP DISPLAY_BL
 D Afficheur LCD nLignes
 K DEV
+$ENDCMP
+#
+$CMP DMG6968UDM
+F transistors/mos/*.*
 $ENDCMP
 #
 $CMP DMP2240UDM
