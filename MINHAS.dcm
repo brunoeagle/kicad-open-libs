@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 16/08/2012 16:05:56
+EESchema-DOCLIB  Version 2.0  Date: 21/08/2012 00:10:29
 #
 $CMP 2N7002P
 F transistors/mos/*.*
@@ -45,6 +45,10 @@ D Voltage Ref
 K VOLTAGE REFERENCE
 $ENDCMP
 #
+$CMP BD139
+F transistors/bipolar/*.*
+$ENDCMP
+#
 $CMP DISPLAY_BL
 D Afficheur LCD nLignes
 K DEV
@@ -55,6 +59,10 @@ F transistors/mos/*.*
 $ENDCMP
 #
 $CMP DMP2240UDM
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP IRF9530N
 F transistors/mos/*.*
 $ENDCMP
 #

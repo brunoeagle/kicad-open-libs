@@ -1,4 +1,8 @@
-EESchema-DOCLIB  Version 2.0  Date: 16/08/2012 15:10:39
+EESchema-DOCLIB  Version 2.0  Date: 20/08/2012 23:28:42
+#
+$CMP 2N7002P
+F transistors/mos/*.*
+$ENDCMP
 #
 $CMP 4052_BR
 D Dual Analog Multiplexer 4 to 1 line
@@ -54,6 +58,10 @@ $CMP DMP2240UDM
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP IRF9530N
+F transistors/mos/*.*
+$ENDCMP
+#
 $CMP IRFML8244
 F transistors/mos/*.*
 $ENDCMP
@@ -101,6 +109,10 @@ $ENDCMP
 #
 $CMP MMBTA3904
 F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
 $ENDCMP
 #
 $CMP PIC18F4520-/PT
