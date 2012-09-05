@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 20/08/2012 23:28:42
+EESchema-DOCLIB  Version 2.0  Date: 03/09/2012 17:12:17
 #
 $CMP 2N7002P
 F transistors/mos/*.*
@@ -43,6 +43,10 @@ $ENDCMP
 $CMP ADR5041
 D Voltage Ref
 K VOLTAGE REFERENCE
+$ENDCMP
+#
+$CMP BD139
+F transistors/bipolar/*.*
 $ENDCMP
 #
 $CMP DISPLAY_BL
