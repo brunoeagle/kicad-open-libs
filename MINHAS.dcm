@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 13/06/2013 18:15:55
+EESchema-DOCLIB  Version 2.0  Date: 16/06/2013 20:21:31
 #
 $CMP 2N7002P
 F transistors/mos/*.*
@@ -113,6 +113,14 @@ $ENDCMP
 #
 $CMP MMBTA3904
 F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP MOSFET-N_B
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET-P_B
+F transistors/mos/*.*
 $ENDCMP
 #
 $CMP MOSFET_N
