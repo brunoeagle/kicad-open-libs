@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Qua 16 Out 2013 18:53:59 AMT
+EESchema-DOCLIB  Version 2.0  Date: Sex 25 Out 2013 17:56:00 AMST
 #
 $CMP 2N7002P
 F transistors/mos/*.*
@@ -55,6 +55,10 @@ K DEV
 $ENDCMP
 #
 $CMP DMG6968UDM
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP DMN3135LVT
 F transistors/mos/*.*
 $ENDCMP
 #
