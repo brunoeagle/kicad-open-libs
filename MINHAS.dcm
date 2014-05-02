@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sex 25 Out 2013 17:56:00 AMST
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 2N7002P
 F transistors/mos/*.*
@@ -64,6 +64,10 @@ $ENDCMP
 #
 $CMP DMP2240UDM
 F transistors/mos/*.*
+$ENDCMP
+#
+$CMP DUAL_PNP
+F transistors/bipolar/*.*
 $ENDCMP
 #
 $CMP IRF9530N
