@@ -49,6 +49,10 @@ $CMP BD139
 F transistors/bipolar/*.*
 $ENDCMP
 #
+$CMP DBL_SCH_DIODE
+D ESD Protection Diodes
+$ENDCMP
+#
 $CMP DISPLAY_BL
 D Afficheur LCD nLignes
 K DEV
@@ -94,6 +98,11 @@ $CMP LM324N
 D Quad Op amp.
 K AmpliOp
 F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM338T
+D LM338 (TO-220)
+K Adjustable Voltage Regulator 5A
 $ENDCMP
 #
 $CMP LM7805
