@@ -70,6 +70,10 @@ $CMP DMP2240UDM
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP DUAL-MOSFET-P_B
+F transistors/mos/*.*
+$ENDCMP
+#
 $CMP DUAL_PNP
 F transistors/bipolar/*.*
 $ENDCMP
@@ -126,6 +130,11 @@ $ENDCMP
 $CMP MC34063_BR
 D 1.5A step up/down/inverting switching regulator
 F regulator/mc34063.pdf
+$ENDCMP
+#
+$CMP MCP6V02
+D Precision Dual Amp-Op
+K AmpliOp
 $ENDCMP
 #
 $CMP MMBTA3904
