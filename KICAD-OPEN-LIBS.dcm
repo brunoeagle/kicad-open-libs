@@ -70,6 +70,10 @@ $CMP DMN3135LVT
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP DMN63D8LDW
+F transistors/mos/*.*
+$ENDCMP
+#
 $CMP DMP2240UDM
 F transistors/mos/*.*
 $ENDCMP
