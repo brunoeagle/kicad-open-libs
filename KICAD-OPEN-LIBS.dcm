@@ -49,6 +49,11 @@ D Voltage Ref
 K VOLTAGE REFERENCE
 $ENDCMP
 #
+$CMP BAT54CDW
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
 $CMP BD139
 F transistors/bipolar/*.*
 $ENDCMP
