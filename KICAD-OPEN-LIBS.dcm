@@ -70,6 +70,11 @@ $CMP BD139
 F transistors/bipolar/*.*
 $ENDCMP
 #
+$CMP CONN_08X02
+D Connector, single row, 08x02
+K connector
+$ENDCMP
+#
 $CMP Crystal_SMD_4pin
 D Four pin crystal
 K Quartz, Resonator, Ceramic, Filter
