@@ -113,6 +113,11 @@ $CMP DUAL_PNP
 F transistors/bipolar/*.*
 $ENDCMP
 #
+$CMP ESDA6V1SC6Y
+D Dual schottky diode, common anode
+K diode
+$ENDCMP
+#
 $CMP IRF9530N
 F transistors/mos/*.*
 $ENDCMP
