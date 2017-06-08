@@ -204,6 +204,10 @@ D FLASH-Based 8-Bit CMOS Microcontroller (TQFP package)
 K PIC
 $ENDCMP
 #
+$CMP SI6913DQ
+F transistors/mos/*.*
+$ENDCMP
+#
 $CMP TL074
 D Quad Op amp. Mos
 K AmpliOp Mos
