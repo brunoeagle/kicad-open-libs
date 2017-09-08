@@ -158,6 +158,12 @@ D LM338 (TO-220)
 K Adjustable Voltage Regulator 5A
 $ENDCMP
 #
+$CMP LM339-QFN
+D Quad comparator.
+K Comp diff
+F op_amps/lm139.pdf
+$ENDCMP
+#
 $CMP LM7805
 D Linear Regulator +5V
 K POWER REGUL
@@ -180,6 +186,18 @@ $CMP LT1964-BYP-2
 D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
 K REGULATOR POSITIVE POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP MAX3222
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX3232
+D 3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
+K rs232 uart transceiver line-driver
+F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
 $ENDCMP
 #
 $CMP MC34063_BR
