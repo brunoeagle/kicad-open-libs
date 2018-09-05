@@ -223,12 +223,9 @@ F transistors/mos/*.*
 $ENDCMP
 #
 $CMP MOSFET_N
-F transistors/mos/*.*
-$ENDCMP
-#
-$CMP PIC18F4520-/PT
 D FLASH-Based 8-Bit CMOS Microcontroller (TQFP package)
 K PIC
+F transistors/mos/*.*
 $ENDCMP
 #
 $CMP SI6913DQ
