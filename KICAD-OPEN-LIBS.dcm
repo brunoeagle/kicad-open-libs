@@ -182,6 +182,11 @@ K POWER REGUL
 F regulator\lm78xx.pdf
 $ENDCMP
 #
+$CMP LSM6DS33
+D I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope
+K Accelerometer Gyroscope MEMS
+$ENDCMP
+#
 $CMP LT1964-BYP-2
 D MICROPOWER 100mA LDO adjustable regulator TSOT-23 5-leads package
 K REGULATOR POSITIVE POWER LDO adjustable
