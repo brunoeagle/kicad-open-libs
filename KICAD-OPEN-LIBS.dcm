@@ -74,6 +74,12 @@ $CMP BD139
 F transistors/bipolar/*.*
 $ENDCMP
 #
+$CMP CLV1A-FKB
+D Cree PLCC4 3 in 1 SMD LED
+K led rgb diode
+F http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf
+$ENDCMP
+#
 $CMP CONN_08X02
 D Connector, single row, 08x02
 K connector
