@@ -85,6 +85,12 @@ D Connector, single row, 08x02
 K connector
 $ENDCMP
 #
+$CMP Conn_01x50
+D Generic connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Crystal_SMD_4pin
 D Four pin crystal
 K Quartz, Resonator, Ceramic, Filter
