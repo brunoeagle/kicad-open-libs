@@ -265,4 +265,9 @@ D Quad Op amp. Mos
 K AmpliOp Mos
 $ENDCMP
 #
+$CMP TPS54332
+D  4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)
+K Step-Down DC-DC Switching Regulator
+$ENDCMP
+#
 #End Doc Library
