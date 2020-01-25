@@ -134,6 +134,11 @@ D Dual schottky diode, common anode
 K diode
 $ENDCMP
 #
+$CMP ESDA6V1W5
+D Dual schottky diode, common anode
+K diode
+$ENDCMP
+#
 $CMP FDG6306P
 D Dual P Channel MOSFET SOT23-5
 K Dual P-Channel MOSFET
