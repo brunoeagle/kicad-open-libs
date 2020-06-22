@@ -144,6 +144,12 @@ D Dual P Channel MOSFET SOT23-5
 K Dual P-Channel MOSFET
 $ENDCMP
 #
+$CMP IPG20N06S4L
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP IRF9530N
 F transistors/mos/*.*
 $ENDCMP
