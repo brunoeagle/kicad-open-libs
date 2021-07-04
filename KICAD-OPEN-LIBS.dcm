@@ -20,6 +20,11 @@ $CMP -40V
 K POWER, PWR
 $ENDCMP
 #
+$CMP 0826-1X1T-GJ-F
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
+K 8P8C RJ female connector
+$ENDCMP
+#
 $CMP 2N7002P
 F transistors/mos/*.*
 $ENDCMP
@@ -65,6 +70,12 @@ D Voltage Ref
 K VOLTAGE REFERENCE
 $ENDCMP
 #
+$CMP AP2192
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, DIP-8
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
 $CMP BAT54CDW
 D Double diode Schottky (Serie)
 K DEV DIODE
@@ -83,6 +94,11 @@ $ENDCMP
 $CMP CONN_08X02
 D Connector, single row, 08x02
 K connector
+$ENDCMP
+#
+$CMP CP2110-GM
+D HID USB to SMBUS master bridge
+K USB SMBUS bridge
 $ENDCMP
 #
 $CMP Conn_01x50
@@ -238,6 +254,24 @@ D Precision Dual Amp-Op
 K AmpliOp
 $ENDCMP
 #
+$CMP MIC2026-1BM
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BM
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, SOIC-8
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BN
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, DIP-8
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
 $CMP MMBTA3904
 F transistors/bipolar/*.*
 $ENDCMP
@@ -254,6 +288,12 @@ $CMP MOSFET_N
 D FLASH-Based 8-Bit CMOS Microcontroller (TQFP package)
 K PIC
 F transistors/mos/*.*
+$ENDCMP
+#
+$CMP PCA9557RGV
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, SSOP-24
+K I2C TWI IO expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf
 $ENDCMP
 #
 $CMP SI6913DQ
